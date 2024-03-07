@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(70,90,90);
+}
+.main {
+    width: 100%;
+    height: 100%;
+}
+.wraper {
+    margin-top: 170px;
+}
+.heading {
+    font-size: 6rem;
+    color: white;
+    font-family: Segoe UI;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: -5px;
+    margin-top: 40px;
+}
+.form {
+    text-align: center;
+    margin-top: 45px;
+}
+.input {
+    outline: none;
+    border: none;
+    width: 600px;
+    height: 43px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 0 20px;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.shortcut {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.shortcut-wraper{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.box1 {
+    width: 100px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.box1:hover {
+    /* opacity: 0.5; */
+    background-color: rgb(70,80,80);
+}
+.icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+.img {
+    background: transparent;
+    background-color: inherit;
+    margin: 10px;
+}
